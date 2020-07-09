@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>대구지역/17050560 전준태</title>
+</head>
+<body>
+
+  <div data-role="page" id="MAIN">
+    <div data-role="header" data-position="fixed">
+      <h1>가봐야 할 곳 - 대구</h1>
+    </div>
+
+      <div data-role="tabs">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#indaegu" class="ui-btn-active">In 대구</a></li>
+            <li><a href="#neardaegu">Near 대구</a></li>
+            <li><a href="#outdaegu">In 경상도</a></li>
+          </ul>
+        </div>
+
+        <ul data-role="listview" data-inset="true" id="indaegu" data-theme="b">
+            <li><a href="http://www.daegu.go.kr/index.do?menu_id=00050245">대구 소개</a></li>
+            <li><a href="#indaegu1">대구 명소</a></li>
+        </ul>
+
+        <ul data-role="listview" data-inset="true" id="neardaegu" data-theme="b">
+            <li><a href="http://gbgs.go.kr/open_content/ko/page.do?mnu_uid=2071&">경산 소개</a></li>
+            <li><a href="https://www.yc.go.kr/main.do#">영천 소개</a></li>
+            <li><a href="http://www.gyeongju.go.kr/open_content/ko/index.do?test=1">경주 소개</a></li>
+            <li><a href="https://www.pohang.go.kr/pohang/index.do">포항 소개</a></li>
+            <li><a href="#neardaegu1">대구근교 명소</a></li>
+        </ul>
+
+        <ul data-role="listview" data-inset="true" id="outdaegu" data-theme="b">
+            <li><a href="http://www.ulsan.go.kr/rep/uhVision">울산 소개</a></li>
+            <li><a href="#outdaegu1">울산 명소</a></li>
+            <li><a href="http://www.busan.go.kr/bhgoals">부산 소개</a></li>
+            <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div data-role="footer" data-position="fixed" class="ui-br">
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <!-- <ul>
+            <li><a href="#MAIN" data-icon="home" data-iconpos="notext" data-inline="true"></a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="page" id="indaegu1">
+    <div data-role="header" data-position="fixed">
+      <a data-icon="back" data-iconpos="notext" data-back-btn-text="" data-rel="back"></a>
+      <a href="#panel" class="ui-btn-right" data-icon="bars" data-iconpos="notext" data-inline="true">메뉴</a>
+      <h1>In 대구</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#indaegu1" class="ui-btn-active">대구 명소</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div data-role="content">
+      <div data-role="panel" id="panel" data-display="overlay" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete"><a href="#">메뉴</a><a href="#" data-rel="close">종료</a></li>
+          <li data-role="listdivider">In 대구</li>
+          <li><a href="#indaegu1">대구 명소</a></li>
+          <li data-role="listdivider">Near 대구</li>
+          <li><a href="#neardaegu1">대구근교 명소</a></li>
+          <li data-role="listdivider">In 경상도</li>
+          <li><a href="#outdaegu1">울산 명소</a></li>
+          <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+
+      <ul data-role="listview" data-inser="true">
+        <li>
+          <h2>1. <a href="http://www.eworld.kr/main/main.htm">이월드 & 83타워</a></h2>
+          <p>주소 : 대구 달서구 두류공원로 200</p>
+          <p>요금 : 입장권-<b>23,000원</b> 자유이용권-<b>42,000원</b> (성인기준)</p>
+          <p>개방시간 : <b>11:00 ~ 21:00</b></p>
+          <p>전화번호 : <b>053-620-0001</b></p>
+          <p>참고 : <a href="http://www.eworld.kr/event/02.htm">이벤트 정보</a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/indaegu1_1.jpg" alt="이월드" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>2. <a href="http://www.daegu.go.kr/cts/index.do?menu_id=00000952&servletPath=%2Fcts">대구 수목원</a></h2>
+          <p>주소 : 대구 달서구 화암로 342 대구수목원관리사무소</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>08:00 ~ 19:00</b></p>
+          <p>전화번호 : <b>053-803-7270</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/indaegu1_2.jpg" alt="대구수목원" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>3. <a href="http://www.spavalley.co.kr/">스파밸리</a></h2>
+          <p>주소 : 대구 달성군 가창면 가창로 891</p>
+          <p>요금 : 워터파크&스파 종일권-<b>38,000원</b> (성인기준)</p>
+          <p>개방시간 : <b>09:00 ~ 18:00</b></p>
+          <p>전화번호 : <b>1688-8511</b></p>
+          <p>참고 : <a href="http://www.spavalley.co.kr/event/waterevent.asp">이벤트 정보</a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/indaegu1_3.jpg" alt="스파벨리" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>4. <a href="http://seomun.eneeds.gethompy.com/">서문시장</a></h2>
+          <p>주소 : 대구 중구 큰장로26길 45 서문시장</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>09:00 ~ 19:00</b></p>
+          <p>전화번호 : <b>053-256-6341</b></p>
+          <p>참고 : <a href="http://seomun.eneeds.gethompy.com/bbs/board.php?bc=event">이벤트 정보</a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/indaegu1_4.jpg" alt="서문시장" style="max-width:100px; max-height:100px;"></p>
+        </li>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#MAIN" data-icon="home"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div data-role="page" id="neardaegu">
+    <div data-role="header" data-position="fixed">
+      <a data-icon="back" data-iconpos="notext" data-back-btn-text="" data-rel="back"></a>
+      <a href="#panel" class="ui-btn-right" data-icon="bars" data-iconpos="notext" data-inline="true">메뉴</a>
+      <h1>Near 대구</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#neardaegu1" class="ui-btn-active">대구근교 명소</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div data-role="content">
+      <div data-role="panel" id="panel" data-display="overlay" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete"><a href="#">메뉴</a><a href="#" data-rel="close">종료</a></li>
+          <li data-role="listdivider">In 대구</li>
+          <li><a href="#indaegu1">대구 명소</a></li>
+          <li data-role="listdivider">Near 대구</li>
+          <li><a href="#neardaegu1">대구근교 명소</a></li>
+          <li data-role="listdivider">In 경상도</li>
+          <li><a href="#outdaegu1">울산 명소</a></li>
+          <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+
+      <ul data-role="listview" data-inser="true">
+        <li>
+          <h2>1. <a href="https://store.naver.com/attractions/detail?entry=plt&id=1625508165&query=%EB%B0%98%EA%B3%A1%EC%A7%80">반곡지</a></h2>
+          <p>주소 : 경북 경산시 남산면 반곡리 246</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b>053-810-5363</b>(경산시청 문화관광과)</p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/neardaegu1_1.jpg" alt="반곡지" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>2. <a href="https://map.naver.com/v5/entry/place/1287905140?c=14318138.3277997,4280762.0617209,15,0,0,0,dh">영천 별빛야시장</a></h2>
+          <p>주소 : 경북 영천시 시장4길 38</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>18:00 ~ 23:00</b>(일요일제외)</p>
+          <p>전화번호 : <b>054-330-6000</b></p>
+          <p>참고 : <a href=""></a>매주 금,토 이벤트</p>
+          <p class="ui-li-aside"></br></br></br><img src="img/neardaegu1_2.jpg" alt="별빛야시장" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>3. <a href="https://map.naver.com/v5/entry/place/1838298326?c=14369671.6429007,4269045.0539127,15,0,0,0,dh">경주 화랑의 언덕</a></h2>
+          <p>주소 : 경북 경주시 산내면 내일리 산261-1</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>09:00 ~ 18:00</b></p>
+          <p>전화번호 : <b>010-2520-8627</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/neardaegu1_3.jpg" alt="화랑의언덕" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>4. <a href="https://store.naver.com/attractions/detail?entry=plt&id=38419145&query=%ED%98%B8%EB%AF%B8%EB%B0%98%EB%8F%84%ED%95%B4%EC%95%88%EB%91%98%EB%A0%88%EA%B8%B8">포항 호미반도해안둘레길</a></h2>
+          <p>주소 : 경북 포항시 남구 동해면 마산리 하선대</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b>054-270-5836</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/neardaegu1_4.jpg" alt="호미반도해안둘레길" style="max-width:100px; max-height:100px;"></p>
+        </li>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#MAIN" data-icon="home"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div data-role="page" id="outdaegu">
+    <div data-role="header" data-position="fixed">
+      <a data-icon="back" data-iconpos="notext" data-back-btn-text="" data-rel="back"></a>
+      <a href="#panel" class="ui-btn-right" data-icon="bars" data-iconpos="notext" data-inline="true">메뉴</a>
+      <h1>In 경상도</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#outdaegu1" class="ui-btn-active">울산 명소</a></li>
+          <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div data-role="content">
+      <div data-role="panel" id="panel" data-display="overlay" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete"><a href="#">메뉴</a><a href="#" data-rel="close">종료</a></li>
+          <li data-role="listdivider">In 대구</li>
+          <li><a href="#indaegu1">대구 명소</a></li>
+          <li data-role="listdivider">Near 대구</li>
+          <li><a href="#neardaegu1">대구근교 명소</a></li>
+          <li data-role="listdivider">In 경상도</li>
+          <li><a href="#outdaegu1">울산 명소</a></li>
+          <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+
+      <ul data-role="listview" data-inser="true">
+        <li>
+          <h2>1. <a href="https://daewangam.donggu.ulsan.kr/">대왕암 공원</a></h2>
+          <p>주소 : 울산 동구 일산동 산907 200</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b>052-209-3738</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu1_1.jpg" alt="대왕암공원" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>2. <a href="http://www.whalecity.kr/whalecity/index.php">장생포 고래문화마을</a></h2>
+          <p>주소 : 울산 남구 장생포고래로 244</p>
+          <p>요금 : 관람료-<b>1000원</b></p>
+          <p>개방시간 : <b>09:00 ~ 18:00</b>(월요일 휴무)</p>
+          <p>전화번호 : <b>052-226-0980</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu1_2.jpg" alt="고래문화마을" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>3. <a href="https://store.naver.com/attractions/detail?entry=plt&id=13491605&query=%EC%9D%BC%EC%82%B0%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5">일산해수욕장</a></h2>
+          <p>주소 : 울산 동구 일산동</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b></b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu1_3.jpg" alt="일산해수욕장" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>4. <a href="http://ganjeolgot.ulju.ulsan.kr/gan2014/">간절곶</a></h2>
+          <p>주소 : 울산 울주군 서생면 대송리</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b>052-204-1000</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu1_4.jpg" alt="간절곶" style="max-width:100px; max-height:100px;"></p>
+        </li>
+    </div>
+
+
+  </div>
+
+  <div data-role="page" id="indaegu1">
+    <div data-role="header" data-position="fixed">
+      <a data-icon="back" data-iconpos="notext" data-back-btn-text="" data-rel="back"></a>
+      <a href="#panel" class="ui-btn-right" data-icon="bars" data-iconpos="notext" data-inline="true">메뉴</a>
+      <h1>In 대구</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#indaegu1" class="ui-btn-active">대구 명소</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div data-role="content">
+      <div data-role="panel" id="panel" data-display="overlay" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete"><a href="#">메뉴</a><a href="#" data-rel="close">종료</a></li>
+          <li data-role="listdivider">In 대구</li>
+          <li><a href="#indaegu1">대구 명소</a></li>
+          <li data-role="listdivider">Near 대구</li>
+          <li><a href="#neardaegu1">대구근교 명소</a></li>
+          <li data-role="listdivider">In 경상도</li>
+          <li><a href="#outdaegu1">울산 명소</a></li>
+          <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+
+      <ul data-role="listview">
+        <li>
+          <h2>1. <a href="http://www.eworld.kr/main/main.htm">이월드 & 83타워</a></h2>
+          <p>주소 : 대구 달서구 두류공원로 200</p>
+          <p>요금 : 입장권-<b>23,000원</b> 자유이용권-<b>42,000원</b> (성인기준)</p>
+          <p>개방시간 : <b>11:00 ~ 21:00</b></p>
+          <p>전화번호 : <b>053-620-0001</b></p>
+          <p>참고 : <a href="http://www.eworld.kr/event/02.htm">이벤트 정보</a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/indaegu1_1.jpg" alt="이월드" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>2. <a href="http://www.daegu.go.kr/cts/index.do?menu_id=00000952&servletPath=%2Fcts">대구 수목원</a></h2>
+          <p>주소 : 대구 달서구 화암로 342 대구수목원관리사무소</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>08:00 ~ 19:00</b></p>
+          <p>전화번호 : <b>053-803-7270</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/indaegu1_2.jpg" alt="대구수목원" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>3. <a href="http://www.spavalley.co.kr/">스파밸리</a></h2>
+          <p>주소 : 대구 달성군 가창면 가창로 891</p>
+          <p>요금 : 워터파크&스파 종일권-<b>38,000원</b> (성인기준)</p>
+          <p>개방시간 : <b>09:00 ~ 18:00</b></p>
+          <p>전화번호 : <b>1688-8511</b></p>
+          <p>참고 : <a href="http://www.spavalley.co.kr/event/waterevent.asp">이벤트 정보</a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/indaegu1_3.jpg" alt="스파벨리" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>4. <a href="http://seomun.eneeds.gethompy.com/">서문시장</a></h2>
+          <p>주소 : 대구 중구 큰장로26길 45 서문시장</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>09:00 ~ 19:00</b></p>
+          <p>전화번호 : <b>053-256-6341</b></p>
+          <p>참고 : <a href="http://seomun.eneeds.gethompy.com/bbs/board.php?bc=event">이벤트 정보</a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/indaegu1_4.jpg" alt="서문시장" style="max-width:100px; max-height:100px;"></p>
+        </li>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#MAIN" data-icon="home"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="page" id="neardaegu1">
+    <div data-role="header" data-position="fixed">
+      <a data-icon="back" data-iconpos="notext" data-back-btn-text="" data-rel="back"></a>
+      <a href="#panel" class="ui-btn-right" data-icon="bars" data-iconpos="notext" data-inline="true">메뉴</a>
+      <h1>Near 대구</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#neardaegu1" class="ui-btn-active">대구근교 명소</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div data-role="content">
+      <div data-role="panel" id="panel" data-display="overlay" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete"><a href="#">메뉴</a><a href="#" data-rel="close">종료</a></li>
+          <li data-role="listdivider">In 대구</li>
+          <li><a href="#indaegu1">대구 명소</a></li>
+          <li data-role="listdivider">Near 대구</li>
+          <li><a href="#neardaegu1">대구근교 명소</a></li>
+          <li data-role="listdivider">In 경상도</li>
+          <li><a href="#outdaegu1">울산 명소</a></li>
+          <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+      <ul data-role="listview" data-inser="true">
+        <li>
+          <h2>1. <a href="https://store.naver.com/attractions/detail?entry=plt&id=1625508165&query=%EB%B0%98%EA%B3%A1%EC%A7%80">반곡지</a></h2>
+          <p>주소 : 경북 경산시 남산면 반곡리 246</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b>053-810-5363</b>(경산시청 문화관광과)</p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/neardaegu1_1.jpg" alt="반곡지" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>2. <a href="https://map.naver.com/v5/entry/place/1287905140?c=14318138.3277997,4280762.0617209,15,0,0,0,dh">영천 별빛야시장</a></h2>
+          <p>주소 : 경북 영천시 시장4길 38</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>18:00 ~ 23:00</b>(일요일제외)</p>
+          <p>전화번호 : <b>054-330-6000</b></p>
+          <p>참고 : <a href=""></a>매주 금,토 이벤트</p>
+          <p class="ui-li-aside"></br></br></br><img src="img/neardaegu1_2.jpg" alt="별빛야시장" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>3. <a href="https://map.naver.com/v5/entry/place/1838298326?c=14369671.6429007,4269045.0539127,15,0,0,0,dh">경주 화랑의 언덕</a></h2>
+          <p>주소 : 경북 경주시 산내면 내일리 산261-1</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>09:00 ~ 18:00</b></p>
+          <p>전화번호 : <b>010-2520-8627</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/neardaegu1_3.jpg" alt="화랑의언덕" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>4. <a href="https://store.naver.com/attractions/detail?entry=plt&id=38419145&query=%ED%98%B8%EB%AF%B8%EB%B0%98%EB%8F%84%ED%95%B4%EC%95%88%EB%91%98%EB%A0%88%EA%B8%B8">포항 호미반도해안둘레길</a></h2>
+          <p>주소 : 경북 포항시 남구 동해면 마산리 하선대</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b>054-270-5836</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/neardaegu1_4.jpg" alt="호미반도해안둘레길" style="max-width:100px; max-height:100px;"></p>
+        </li>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#MAIN" data-icon="home"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="page" id="outdaegu1">
+    <div data-role="header" data-position="fixed">
+      <a data-icon="back" data-iconpos="notext" data-back-btn-text="" data-rel="back"></a>
+      <a href="#panel" class="ui-btn-right" data-icon="bars" data-iconpos="notext" data-inline="true">메뉴</a>
+      <h1>In 경상도</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#outdaegu1" class="ui-btn-active">울산 명소</a></li>
+          <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div data-role="content">
+      <div data-role="panel" id="panel" data-display="overlay" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete"><a href="#">메뉴</a><a href="#" data-rel="close">종료</a></li>
+          <li data-role="listdivider">In 대구</li>
+          <li><a href="#indaegu1">대구 명소</a></li>
+          <li data-role="listdivider">Near 대구</li>
+          <li><a href="#neardaegu1">대구근교 명소</a></li>
+          <li data-role="listdivider">In 경상도</li>
+          <li><a href="#outdaegu1">울산 명소</a></li>
+          <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+
+      <ul data-role="listview" data-inser="true">
+        <li>
+          <h2>1. <a href="https://daewangam.donggu.ulsan.kr/">대왕암 공원</a></h2>
+          <p>주소 : 울산 동구 일산동 산907 200</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b>052-209-3738</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu1_1.jpg" alt="대왕암공원" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>2. <a href="http://www.whalecity.kr/whalecity/index.php">장생포 고래문화마을</a></h2>
+          <p>주소 : 울산 남구 장생포고래로 244</p>
+          <p>요금 : 관람료-<b>1000원</b></p>
+          <p>개방시간 : <b>09:00 ~ 18:00</b>(월요일 휴무)</p>
+          <p>전화번호 : <b>052-226-0980</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu1_2.jpg" alt="고래문화마을" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>3. <a href="https://store.naver.com/attractions/detail?entry=plt&id=13491605&query=%EC%9D%BC%EC%82%B0%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5">일산해수욕장</a></h2>
+          <p>주소 : 울산 동구 일산동</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b></b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu1_3.jpg" alt="일산해수욕장" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>4. <a href="http://ganjeolgot.ulju.ulsan.kr/gan2014/">간절곶</a></h2>
+          <p>주소 : 울산 울주군 서생면 대송리</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b>052-204-1000</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu1_4.jpg" alt="간절곶" style="max-width:100px; max-height:100px;"></p>
+        </li>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#MAIN" data-icon="home"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div data-role="page" id="outdaegu2">
+    <div data-role="header" data-position="fixed">
+      <a data-icon="back" data-iconpos="notext" data-back-btn-text="" data-rel="back"></a>
+      <a href="#panel" class="ui-btn-right" data-icon="bars" data-iconpos="notext" data-inline="true">메뉴</a>
+      <h1>In 경상도</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#outdaegu1">울산 명소</a></li>
+          <li><a href="#outdaegu2" class="ui-btn-active">부산 명소</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div data-role="content">
+      <div data-role="panel" id="panel" data-display="overlay" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete"><a href="#">메뉴</a><a href="#" data-rel="close">종료</a></li>
+          <li data-role="listdivider">In 대구</li>
+          <li><a href="#indaegu1">대구 명소</a></li>
+          <li data-role="listdivider">Near 대구</li>
+          <li><a href="#neardaegu1">대구근교 명소</a></li>
+          <li data-role="listdivider">In 경상도</li>
+          <li><a href="#outdaegu1">울산 명소</a></li>
+          <li><a href="#outdaegu2">부산 명소</a></li>
+        </ul>
+      </div>
+      <ul data-role="listview" data-inser="true">
+        <li>
+          <h2>1. <a href="http://citizenpark.or.kr/">부산 시민공원</a></h2>
+          <p>주소 : 부산 부산진구 시민공원로 73</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>05:00 ~ 24:00</b></p>
+          <p>전화번호 : <b>051-850-6000</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu2_1.jpg" alt="부산 시민공원" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>2. <a href="http://taejongdae.bisco.or.kr/">태종대</a></h2>
+          <p>주소 : 부산 영도구 전망로 24</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>04:00 ~ 24:00</b></p>
+          <p>전화번호 : <b>051-405-8745</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu2_2.jpg" alt="태종대" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>3. <a href="http://www.ydculture.com/">흰여울 문화마을</a></h2>
+          <p>주소 : 부산 영도구 영선동4가 605-3</p>
+          <p>요금 : <b>무료</b></p>
+          <p>개방시간 : <b>00:00 ~ 00:00</b></p>
+          <p>전화번호 : <b>051-419-4067</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu2_3.jpg" alt="흰여울문화마을" style="max-width:100px; max-height:100px;"></p>
+        </li>
+        <li>
+          <h2>4. <a href="http://seomun.eneeds.gethompy.com/">아홉산숲</a></h2>
+          <p>주소 : 부산 기장군 철마면 미동길 37-1</p>
+          <p>요금 : 일반숲체험-<b>10,000원</b> 입장료-<b>5,000원</b></p>
+          <p>개방시간 : <b>09:00 ~ 18:00</b></p>
+          <p>전화번호 : <b>051-721-9183</b></p>
+          <p><a href=""></a></p>
+          <p class="ui-li-aside"></br></br></br><img src="img/outdaegu2_4.jpg" alt="아홉산숲" style="max-width:100px; max-height:100px;"></p>
+        </li>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#MAIN" data-icon="home"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
